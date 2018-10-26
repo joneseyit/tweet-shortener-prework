@@ -25,9 +25,9 @@ def word_substituter(tweet)
   tweet_words = tweet.split
   tweet_words.each do |word|
     if dictionary.has_key?(word)
-      new_array << word
+      new_array << dictionary.fetch(word)
     else
-      new_array << word
+      new_array << dictionary.fetch(word)
     end
   end
   
