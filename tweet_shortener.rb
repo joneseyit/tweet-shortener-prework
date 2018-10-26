@@ -27,7 +27,7 @@ def word_substituter(tweet)
     if dictionary.has_key?(word)
       new_array << dictionary.fetch(word)
     else
-      new_array << dictionary.fetch(word)
+      new_array << word
     end
   end
   
