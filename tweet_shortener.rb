@@ -49,3 +49,7 @@ def selective_tweet_shortener(tweet)
     tweet
   end
 end
+ 
+#if selective_tweet_shortener > 140 use array.slice and put ... as the last 3 characters
+def shortened_tweet_truncator(tweet)
+end
