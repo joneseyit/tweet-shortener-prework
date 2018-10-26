@@ -27,7 +27,7 @@ def word_substituter(tweet)
  
   tweet_words.each do |word|
     curWord = word.downcase
-    if dictionary.has_key?(word)
+    if dictionary.has_key?(curWord)
       new_array << dictionary.fetch(word)
     else
       new_array << word
