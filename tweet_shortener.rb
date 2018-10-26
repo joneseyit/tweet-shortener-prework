@@ -51,9 +51,10 @@ def selective_tweet_shortener(tweet)
 end
  
 #if selective_tweet_shortener > 140 use array.slice and put ... as the last 3 characters.  Nm - do string [0..137] and join ...
+# use correct variable name eg tweet vs string`
 def shortened_tweet_truncator(tweet)
   if selective_tweet_shortener(tweet).length >140
-    string[0..136].concat("...")
+    tweet[0..136].concat("...")
   else
     tweet
   end
