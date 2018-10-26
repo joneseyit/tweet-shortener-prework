@@ -21,9 +21,10 @@ end
 # add to new array
 def word_substituter(tweet)
   new_array = []
+  long_words = dictionary.keys
   tweet_words = tweet.split
   tweet_words.each do |word|
-  
+    if 
   end
   
 end
